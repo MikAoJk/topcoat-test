@@ -2,7 +2,9 @@
 name = "topcoat-test"
 version = "0.1.0"
 edition = "2024"
+rust-version = "1.100.0"
+
 
 [dependencies]
-tokio = { version = "1.53.1", features = ["rt-multi-thread", "macros"] }
-topcoat = "0.6.2"
+tokio = { version = "1.54.1", features = ["rt-multi-thread", "macros"] }
+topcoat = "0.12.1"
